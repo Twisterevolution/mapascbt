@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Marcas cbt.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>B1 Tsch</name>
+		<description>B1 Teodoro Schmit
+OBAC: 
+Tripilacion.
+Ultima Actualizacion:</description>
+		<LookAt>
+			<longitude>-72.64522561198089</longitude>
+			<latitude>-38.76956213286414</latitude>
+			<altitude>0</altitude>
+			<heading>0.9295348353286587</heading>
+			<tilt>0</tilt>
+			<range>235.6437518314484</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.64548583955504,-38.76941768289242,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B14</name>
+		<description>B14 Temuco
+OBAC: 
+Tripilacion.
+Ultima Actualizacion:</description>
+		<LookAt>
+			<longitude>-72.64522561198089</longitude>
+			<latitude>-38.76956213286414</latitude>
+			<altitude>0</altitude>
+			<heading>0.9295348353286587</heading>
+			<tilt>0</tilt>
+			<range>235.6437518314484</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.64589429895571,-38.76951286416166,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>R3</name>
+		<description>R3 Temuco
+OBAC: 
+Tripilacion.
+Ultima Actualizacion:</description>
+		<LookAt>
+			<longitude>-72.64522561198089</longitude>
+			<latitude>-38.76956213286414</latitude>
+			<altitude>0</altitude>
+			<heading>0.9295348353286587</heading>
+			<tilt>0</tilt>
+			<range>235.6437518314484</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.64566519476931,-38.76944696850259,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>H2</name>
+		<description>H2 Temuco
+OBAC: 
+Tripilacion.
+Ultima Actualizacion:</description>
+		<LookAt>
+			<longitude>-72.64230211260204</longitude>
+			<latitude>-38.77017257169837</latitude>
+			<altitude>0</altitude>
+			<heading>0.9277041448493731</heading>
+			<tilt>0</tilt>
+			<range>1454.453229205504</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.64606555583146,-38.76956257173385,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PMMI</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-72.64616186999471,-38.76989535687546,0 -72.64609236664749,-38.76987568461259,0 -72.64600957735691,-38.76986710809265,0 -72.64595376221276,-38.76984706603422,0 -72.64587092760695,-38.76983848320808,0 -72.64580089424202,-38.7698080477068,0 -72.64575922935715,-38.76979837878818,0 -72.64570286446174,-38.76976755481465,0 -72.64563262993678,-38.76973703505605,0 -72.64557617385897,-38.76970617374876,0 -72.6455201732326,-38.76968605858366,0 -72.64546372408574,-38.76965520080849,0 -72.64542195305859,-38.76964548744094,0 -72.64535218672054,-38.76962571790677,0 -72.6452961955687,-38.76960560606478,0 -72.64522686360022,-38.76959657163285,0 -72.64517129446325,-38.76958718750285,0 -72.64511485204017,-38.76955633082036,0 -72.64504595878913,-38.7695580258539,0 -72.64499041172104,-38.76954864587791,0 -72.64494908543178,-38.76954966290468,0 -72.64487977685371,-38.76954062415869,0 -72.64482468968166,-38.76954198067449,0 -72.6447687284826,-38.76952187099856,0 -72.64471365413463,-38.7695232276927,0 -72.64465770657296,-38.76950312175506,0 -72.64460132599942,-38.76947228722881,0 -72.64455827572172,-38.76943038495217,0 -72.64451566890024,-38.76939921634273,0 -72.64447306572662,-38.76936805205756,0 -72.6444437824714,-38.76932581951546,0 -72.64442825901662,-38.7692832437742,0 -72.6444264958803,-38.76924032144206,0 -72.64442429190612,-38.76918666368074,0 -72.64446381762164,-38.76914269818037,0 -72.64450379087133,-38.76910946005138,0 -72.64455753751948,-38.76907587059852,0 -72.64459796370946,-38.76905335870275,0 -72.64466681446642,-38.76905162658343,0 -72.64472190239665,-38.7690502406265,0 -72.6447774345008,-38.76905959401294,0 -72.64482007003345,-38.76909077215672,0 -72.64486314256936,-38.769132690134,0 -72.64490534385506,-38.76915313182992,0 -72.64496219582624,-38.76919470595218,0 -72.64501818020953,-38.76921480585565,0 -72.6450732783055,-38.7692134317859,0 -72.64514214041697,-38.76921171622524,0 -72.64519723051087,-38.76921034324732,0 -72.64523854815919,-38.76920931420135,0 -72.64529363823498,-38.76920794110543,0 -72.64537541278374,-38.76918440480024,0 -72.64543007509029,-38.76917229254668,0 -72.64549851168179,-38.76915983650971,0 -72.64553983165287,-38.76915880710747,0 -72.64562247226235,-38.76915674717001,0 -72.64570511282626,-38.76915468808732,0 -72.64577391113967,-38.7691529783014,0 -72.64584267822623,-38.7691512718478,0 -72.64591143625582,-38.76914956585237,0 -72.64596643523879,-38.76914819992324,0 -72.64603517501102,-38.76914649393174,0 -72.64611765021766,-38.76914444708868,0 -72.64617304548506,-38.76915381744995,0 -72.6462567543976,-38.76918397039865,0 -72.64631296710967,-38.76921480097876,0 -72.6463687519589,-38.76923489425361,0 -72.64639789362906,-38.76927712935859,0 -72.64644041268649,-38.7693082873127,0 -72.64646960620013,-38.76935051344953,0 -72.64648462740485,-38.76938235244219,0 -72.64648682651904,-38.76943599294143,0 -72.64648858612621,-38.76947890463809,0 -72.64649034524445,-38.76952181678226,0 -72.64647878502831,-38.76957580031716,0 -72.64646678517599,-38.7696190555253,0 -72.64646854447842,-38.76966196776112,0 -72.64647030436309,-38.76970487986421,0 -72.64647206330746,-38.76974779241128,0 -72.64646006361798,-38.76979104714789,0 -72.64642054304201,-38.76983498846865,0 -72.64636690477919,-38.76986857086137,0 -72.646327019749,-38.76990181142604,0 -72.64629954950475,-38.76990251620941,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
